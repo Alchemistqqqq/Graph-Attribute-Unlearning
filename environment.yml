@@ -1,0 +1,16 @@
+name: unlearning
+channels:
+  - defaults
+dependencies:
+  - python==3.9
+  - torchaudio
+  - pip
+  - torchvision
+  - pandas
+  - pydantic
+  - notebook
+  - jupyter
+  - matplotlib
+  - pip:
+      - pytorch-cuda=12.1
+      - dgl
